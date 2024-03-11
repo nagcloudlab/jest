@@ -1,0 +1,122 @@
+
+why do we need javascript?
+
+- to build web-ui apps  ( react, angular )
+- to build mobile native apps ( react-native, ionic )
+- to build server side apps ( node.js + express , nest.js )
+- to build desktop apps ( electron )
+- to build command line tools ( node.js + yargs  )
+
+------------------------------------------------------
+Developer's Testing
+------------------------------------------------------
+
+    - Manual Testing
+        - console-output
+        - debugging ( breakpoints, watch, call-stack )
+    - Automated Testing
+        - Unit Testing
+        - Integration Testing
+
+------------------------------------------------------
+
+What is Unit Testing?
+
+    - Testing a small piece of code ( function, class, module )
+
+
+The key aspects of unit testing include:
+
+- Isolation: The unit test should only test the functionality of the unit of code it is targeting. It should not depend on any external resources such as a database, network, or file system. This is to ensure that the test is repeatable and independent of any external factors.
+- Automation: Unit tests should be automated and repeatable. This means that they can be run at any time and as many times as needed without human intervention.
+- Documentation: Unit tests should serve as documentation for the code they are testing. They should describe the expected behavior of the code and provide examples of how it should be used.
+
+------------------------------------------------------
+
+
+Importance of Unit Testing in Software Development
+
+    - It helps to identify bugs early in the development process.
+    - It helps to ensure that the code is working as expected.
+    - It helps to improve the quality of the code.
+    - It helps to reduce the time and effort required for manual testing.
+    - It helps to reduce the cost of fixing bugs in production.
+
+------------------------------------------------------
+
+Benefits and Challenges of Unit Testing
+
+Benefits
+
+- Improved code quality: Unit testing helps to identify and fix bugs early in the development process, which leads to improved code quality.
+- Faster development: Unit testing helps to identify and fix bugs early in the development process, which leads to faster development.
+- Reduced cost: Unit testing helps to identify and fix bugs early in the development process, which leads to reduced cost.
+- Increased confidence: Unit testing helps to identify and fix bugs early in the development process, which leads to increased confidence in the code.
+
+Challenges
+
+- Time-consuming: Writing unit tests can be time-consuming, especially for complex code.
+- Maintenance: Unit tests need to be maintained as the code changes, which can be challenging.
+- Overhead: Writing and maintaining unit tests adds overhead to the development process.
+
+------------------------------------------------------
+
+How to do Automated Unit Testing ?
+
+    - Arrange
+    - Act
+    - Assert
+
+------------------------------------------------------    
+
+Testing Framework for javascript ?
+
+    - Jest
+    - Jasmine
+    - Mocha
+    - AVA
+    - Cypress
+    ...
+
+Jest features
+
+    - Zero configuration
+    - Fast
+    - Snapshot Testing
+    - Mocking
+    - Code Coverage
+    - Parallel Testing
+    - Built-in Expectations
+    - Built-in Matchers
+    - Built-in Mocking
+    - Built-in Spying
+    - Built-in Stubbing
+    - Built-in Code Coverage
+    - Built-in Test Runner
+    - Built-in Test Watcher
+    - Built-in Test Suites
+    - Customizable Configuration
+
+Assesrtion library
+
+    - jest
+    - chai
+    - expect
+
+
+Mocking library
+
+    - jest
+    - sinon
+    - testdouble
+    - jest-mock
+    - jest-spy
+
+Testing library
+
+https://testing-library.com/
+
+------------------------------------------------------
+
+
+
